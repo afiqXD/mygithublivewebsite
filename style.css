@@ -1,0 +1,120 @@
+/* Reset dasar biar tampilan konsisten di semua browser */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Warna dasar */
+
+body {
+    background-color: #1343a2;
+    color: #69a378;
+    line-height: 1.6;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffda79;
+}
+
+
+/* Hero section */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(120deg, #0d6efd, #6610f2);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background: white;
+    color: #0d6efd;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.hero button:hover {
+    background: #ffda79;
+    color: #222;
+}
+
+
+/* Section */
+
+section {
+    padding: 60px 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+
+/* Footer */
+
+footer {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

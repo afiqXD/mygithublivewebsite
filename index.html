@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portofolio</title>
+</head>  
+    </html>
+        </html>
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+                <link rel="stylesheet" href="style/style.css">
+            </head>
+        </body>
+
+</html>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MyWebsite</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portofolio" class="nav-link">Portofolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Selamat Datang di Website saya</h1>
+            <p class="hero-description">Saya lahir di Jakarta pada 28 Agustus 2009</p>
+            <button class="cta-button" onclick="showAlert()">Get Started</button>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Kami</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Kami adalah tim profesional yang berdedikasi untuk menciptakan solusi digital inovatif.</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <span>Web Development</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Digital Marketing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="image/hisa.jpg" width="200px" height="150px" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Layanan Kami</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Kami membuat website yang responsif dan modern</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Desain yang menarik dan user-friendly</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategi marketing untuk meningkatkan bisnis Anda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portofolio" class="portofolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portofolio-grid">
+                <div class="portofolio-item">
+                    <img src="html.png" alt="Project 1">
+                    <div class="portofolio-overlay">
+                        <h3>Project 1</h3>
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="portofolio-item">
+                    <img src="css.png" alt="Project 2">
+                    <div class="portofolio-overlay">
+                        <h3>Project 2</h3>
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="portofolio-item">
+                    <img src="js.png" alt="Project 3">
+                    <div class="portofolio-overlay">
+                        <h3>Project 3</h3>
+                        <p>JS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Jl. Nangka, Cilodong, Kota Depok</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+62 812-3456-7890</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" placeholder="Nama" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Pesan" rows="5" required></textarea>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
